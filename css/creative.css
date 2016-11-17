@@ -437,12 +437,6 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
-#swing {
-  -vendor-animation-duration: 5s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
-}
-
 #photography{
   margin-bottom: 50px;
 }
@@ -489,6 +483,55 @@ body {
 }
 
 .intro{
-  margin-top: 320px;
-  margin-bottom: 10px;
+  /*margin-top: 320px;
+  margin-bottom: 10px;*/
+  padding-top: 320px;
+  padding-bottom: 20px;
+}
+
+#homeHeading{
+  -webkit-animation-duration: 0.7s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+}
+
+#comingSoon{
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#movingHelicopter{
+  margin-top: 20px;
+  -webkit-animation-duration: 19.5s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/*the following 3 medias are for About Me section*/
+
+
+@media(max-width: 414px){
+    .intro{
+        margin-top: -150px;
+        margin-right: 50px;
+    }
+}
+
+@media(max-width: 375px){
+  .intro{
+      margin-top: -210px;
+      margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 320px){
+    .intro{
+        margin-top: -240px;
+        margin-bottom: 10px;
+    }
+}
+
+header {
+    max-width: 100%;
+    overflow-x: hidden;
 }
