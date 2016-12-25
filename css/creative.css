@@ -507,7 +507,7 @@ body {
 }
 
 #movingHelicopter{
-  margin-top: 5px;
+  margin-top: 0;
   -webkit-animation-duration: 21.5s;
   -webkit-animation-iteration-count: infinite;
 }
@@ -540,11 +540,6 @@ header {
     max-width: 100%;
     overflow-x: hidden;
 }
-
-
-
-
-
 
 
 
@@ -737,7 +732,7 @@ header {
 @media(max-width: 375px){
   #particles {
     width: 100%;
-    height: 300%;
+    height: 370%;
     overflow: hidden;
     top:195%;
     bottom: 0;
