@@ -507,7 +507,7 @@ body {
 }
 
 #movingHelicopter{
-  margin-top: 0;
+  margin-top: 30px;
   -webkit-animation-duration: 21.5s;
   -webkit-animation-iteration-count: infinite;
 }
