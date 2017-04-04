@@ -30,7 +30,7 @@ Web: http://themegret.com
 
 /* --------------- Reset Styles --------------- */
 body {
-	font-family: 'Pangolin','Open Sans', sans-serif;
+	font-family: 'Pangolin', cursive;
 	font-size: 16px;
 	line-height: 28px;
 	font-weight: 300;
@@ -40,14 +40,14 @@ body {
 }
 
 a {
-	color: #cccccc;
+	color: #5D79B5;
 	text-decoration: none;
 }
 
 a:hover, a:focus, .btn:focus {
     text-decoration: none;
 	outline: none;
-	color: #6c6b6b
+	color: #2b7092;
 }
 
 input:focus, textarea:focus {
@@ -179,7 +179,7 @@ font-weight: 700;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("../images/nyc.png");
+  background-image: url("https://github.com/minchen321/minchen321.github.io/blob/master/images/nyc.png?raw=true");
   z-index: 5;
 }
 
@@ -320,6 +320,10 @@ color:#2b7092 !important;
 	background: #ffffff;
 }
 
+.menuOption{
+	font-family: 'Pangolin', cursive;
+}
+
 
 /* --------------- Home section --------------- */
 
@@ -443,7 +447,7 @@ color:#2b7092 !important;
 
 
 .section-step {
-  background-image:url('../images/about-bg.jpg');
+  background-image:url('https://github.com/minchen321/minchen321.github.io/blob/master/images/about-bg.jpg?raw=true');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -732,13 +736,13 @@ margin-right: 8px;
 /* ================ Download Section ================ */
 #contact {
 	/*background-color: #333;*/
-	background-image: url('../images/contact-bg.png');
+	background-image: url('https://github.com/minchen321/minchen321.github.io/blob/master/images/contact-bg.png?raw=true');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
-	height:755px;
+	height:730px;
 	padding-top: 150px;
 }
 
@@ -785,8 +789,18 @@ margin-right: 8px;
 }
 .copyright {
 	padding-top: 15px;
+	font-size: 18px;
 }
 .icon_size{
 	height: 50px;
 	width: 50px;
+}
+
+
+.icon-bar{
+	color:#5D79B5;
+}
+
+.titleColor{
+	color:#5D79B5;
 }

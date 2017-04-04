@@ -8,32 +8,32 @@
 	.navbar-nav > li > a {
 		font-size: 14px !important;
 	}
-	
+
 	.step-no {
 		margin: 0 auto 60px;
 	}
-	
+
 	/* steps */
 	.step-even .step-img, .step-even .step-details {
 		float: none;
 	}
-	
+
 	.step-img, .step-details{
 		margin-bottom: 40px;
 	}
-	
+
 	.step-img {
 		text-align:center;
 	}
-	
+
 	.single-pricing {
 		margin-bottom: 60px;
 	}
-	
+
 	.project-photo, .project-details {
 		margin-bottom: 60px;
 	}
-	
+
 
 }
 
@@ -60,19 +60,20 @@
 		display:none;
 	}
 
-	
-	
+
+
 }
 
 
 /* --------- Styles for Screen width Smaller than 767px -------- */
 @media only screen and (max-width: 767px) {
-	
+
 	/* Main menu */
 	.navbar-collapse {
 		margin-left: -16px;
 		margin-right: -16px;
-		background: rgba(31, 44, 72, 0.43);;
+		/*background: rgba(31, 44, 72, 0.43);;*/
+		background:#7594d8;
 /*		overflow-y:scroll;*/
 		max-height: 200px;
 	}
@@ -80,13 +81,18 @@
 	.navbar-nav > li > a {
 		padding-left: 30px;
 	}
-	
+	ul.nav > li > a {
+    color: white;
+	}
+	li.current a, ul.nav > li > a:hover {
+    color: #1047bb !important;
+}
 
 	/* features */
 	.container.features {
 		padding-bottom: 120px;
 	}
-	
+
 	.baraja-container {
 		width: 200px;
 		height: 200px;
@@ -121,7 +127,7 @@
 	.step .step-img {
 		margin-top: 30px;
 	}
-		
+
 	.sub-steps .sub-text {
 		line-height: 28px;
 	}
@@ -164,32 +170,19 @@
 		line-height: 32px;
 	}
 
+	#movingHelicopter{
+	  padding-top: 40px;
+	}
 
 	#section-feature {
 		padding-top: 140px;
 		padding-bottom: 40px;
 	}
-	
+
 	.well-come {
 		margin-top: 150px;
 		font-size: 48px;
 	}
-	
-/*	.features-control {
-		float: left;
-		height: 160px;
-		width: 42px;
-		bottom: 370px;
-	}*/
-
-/*	.features-control .control-icon {
-		position: relative;
-		left: 2px !important;
-		float: left;
-		margin-bottom: 8px;
-	}
-*/
-	
 
 
 	/* Steps */
@@ -206,7 +199,7 @@
 	.screenshots .col-xs-6 {
 		width: 100% !important;
 	}
-	
+
 		#subscription-form  .input-email {
 		width: 320px;
 	}
@@ -227,8 +220,3 @@
 	}
 
 }
-
-
-
-
-
