@@ -94,7 +94,9 @@
 		background-image: url("../img/nyc-mobile.jpg");
 	}
 	/* --------- about-me ---------- */
-
+	#about{
+		margin-bottom:1rem; 
+	}
 	#roles button{
 		font-size: 1.5rem;
 		padding:0.2rem 0.3rem 0.2rem 0.3rem;
