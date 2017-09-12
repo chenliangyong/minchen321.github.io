@@ -86,6 +86,7 @@
 	/* ------------ home -------------*/
 	#home h1{
 		font-size: 2.2rem;
+		top:35%;
 		left:15%;
 		right:15%;
 	}
@@ -93,6 +94,7 @@
 		background-image: url("../img/nyc-mobile.jpg");
 	}
 	/* --------- about-me ---------- */
+
 	#roles button{
 		font-size: 1.5rem;
 		padding:0.2rem 0.3rem 0.2rem 0.3rem;
@@ -110,6 +112,9 @@
 		text-align: -ms-center;
 	}
 
+	#developer-slide{
+		overflow-y: scroll;
+	}
 	#developer-background{
 		height:28vh;
 	}
@@ -135,6 +140,7 @@
 	}
 	#me-slide{
 		padding-top:2.0rem;
+		overflow-y: scroll;
 	}
 	#me-slide h3{
 		font-size: 1.5rem;
@@ -215,6 +221,10 @@
 	.project-description{
 		padding: 2rem 1rem 2rem 1rem;
 		line-height: 1.25;
+	}
+	/* --------- contact -------------- */
+	#contact{
+		padding-top: 5rem;
 	}
 	/* --------- resume -------------- */
 	.title{
