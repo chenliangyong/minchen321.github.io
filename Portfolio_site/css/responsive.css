@@ -379,6 +379,11 @@
 	#slideshow{
 	    height: 40vh;
 	}
+	.action .btn-common {
+	    margin-top: 55px;
+	    float: unset;
+	    padding: 0rem 0.1rem 0.5rem 0.1rem;
+	}
 }	
 
 @media only screen and (max-width: 375px) {

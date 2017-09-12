@@ -157,13 +157,15 @@ Portfolio Projects
 
 		description[1] = ["Payoment", "A company website for Payoment Merchant Serivices", "HTML, CSS, JavaScript, Bootstrap"];
 
-		description[2] = ["Surtom Construction Contracting Corp.", "A company website built on top of Bootstrap.", "HTML, CSS, JavaScript, jQuery, Bootstrap"];
+		description[2] = ["Surtom", "A company website for Surtom Construction Contracting Corp", "HTML, CSS, JavaScript, jQuery, Bootstrap"];
 
 		description[3] = ["CUNYPlus", "A communication platform to connect CUNY students by their areas of study.", "HTML, CSS, JavaScript, jQuery, Bootstrap"];
 
 		description[4] = ["Smart Capital", "A company website for Smart Capital Corporation.", "HTML, CSS, JavaScript, Wordpress"];
 
 		description[5] = ["Movie Quiz", "A Node.js movie quiz game with responsive front-end design.", "HTML, CSS, JavaScript, jQuery, Bootstrap"];
+
+		description[6] = ["RecipeBook", "A JavaScript web application allows users to manage their online recipes.", "HTML, CSS, JavaScript, Node.js, Dust (template engine), Postgres"];
 
 		$(document).ready(function() {
 			var project = document.getElementById('project');
@@ -177,7 +179,7 @@ Portfolio Projects
 
 		    $("#next-project").click(function () {
 		    	counter++;
-		    	if(counter > 5){
+		    	if(counter > 6){
 					counter=0;
 				}
 				project.innerHTML= description[counter][0];
@@ -188,7 +190,7 @@ Portfolio Projects
 			$("#previous-project").click(function () {
 		    	counter--;
 		    	if(counter < 0){
-					counter=5;
+					counter=6;
 				}
 				project.innerHTML= description[counter][0];
 				intro.innerHTML = description[counter][1];
