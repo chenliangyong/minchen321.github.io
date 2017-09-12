@@ -1,0 +1,530 @@
+/* ---------------------- global ------------------------- */
+html{
+	font-size: 16px;
+	min-width: 20rem;
+}
+a{
+	color: #5876b3;
+}
+body {
+	font-family: 'Pangolin', Arial;
+	font-size: 1rem;
+	line-height: 1.25;
+	color: #5876b3;
+	overflow-x: hidden !important;
+	-webkit-font-smoothing: antialiased;
+}
+section{
+	padding-top: 1.5rem;
+}
+
+.section-heading{
+	padding-top: 2.5rem;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+/*----------------------- navigation -------------------------*/
+nav{
+	z-index: 100;
+	font-size: 1.5rem;
+	background-color: #ffffff;
+}
+
+.navbar{
+	border-bottom: 1px solid #5876b3;
+}
+
+.navbar-brand{
+	font-size: 1.5rem;
+	padding-left: 2rem;
+}
+.navbar-toggler-icon{
+	background-color: #5876b3;
+}
+
+.navbar-nav{
+	padding-right: 2rem;
+}
+
+.navbar-nav li a{
+	padding-left: 1rem;
+}
+.navbar-nav li a:hover{
+	background-color: #ffffff;
+}
+/* ----------------------- home ------------------------------*/
+#home{
+	width:100%;
+	height:100vh;
+	background-image: url("../img/nyc.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom;
+}
+
+#home h1{
+	font-size: 3rem;
+	text-align: center;
+	position: absolute;
+	top:30%;
+	left:30%;
+	right:30%;
+}
+
+#moving-helicopter{
+  padding-top:1rem;
+  -webkit-animation-duration: 19s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/* ---------------------- about me ---------------------------*/
+#about{
+/*	width:100%;
+	height:100vh;*/
+		display: flex;
+	justify-content: center;
+}
+#roles{
+	text-align: center;
+}
+#roles button{
+	background-color: #FFFFFF;
+	border: 2px solid #5876b3 ;
+	font-size: 1.75rem;
+	padding:0.2rem 0.5rem 0.2rem 0.5rem;
+	border-radius: 5px;
+}
+
+#roles button:hover{
+	background-color:#5876b3;
+	color:#FFFFFF;
+}
+
+#developer-button{
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+
+}
+
+.subheader{
+	text-align: center;
+	font-size: 1.75rem;
+	padding-top:4rem; 
+	padding-bottom: 1rem;
+}
+
+
+#developer-background{
+	padding: 0.5rem;
+}
+
+#developer-slide{
+	width:100%;
+	height:100vh;
+	text-align: center;
+}
+
+#developer-slide h3{
+	padding-top: 2rem;
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+#developer-slide p{
+	font-size: 1.5rem;
+}
+
+#developer-intro{
+	text-align: left;
+	line-height: 1.25;
+}
+
+.developer-icons{
+	width: 200px;
+	height:auto;
+	padding-top:4rem;
+	padding-bottom: 1rem;
+	display: unset;
+}
+
+#flip{
+    -webkit-animation-delay: 0.1s;
+}
+
+#developer-bg{
+	display:none;
+	z-index:-1;
+	width:670px;
+	height:695px;
+}
+
+#developer-intro{
+	background-color:#F5F8FF;
+}
+
+.multi-lines{
+	width:60%;
+}
+
+#text-padding{
+	margin-left:3rem;
+	font-size:1.2rem;
+}
+#my-picture{
+	background-color:#F5F8FF;
+}
+
+#me-background{
+	padding-top: 0.5rem;
+	padding-left:100px;
+	padding-right:100px;
+} 
+
+#me-button{
+	-webkit-animation-duration:7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-delay: 0.6s;
+}
+
+#me-slide{
+	width:100%;
+	height:100vh;
+	margin-top:2rem;
+
+}
+
+#me-slide h3{
+	font-size: 2rem;
+	font-weight: 600;
+	padding-top:40%;
+}
+
+#me-slide li{
+	list-style-type: none;
+	font-size: 1.5rem;
+}
+
+#me-bg{
+	display:none;
+	z-index:-1;
+	width:670px;
+	height:695px;
+}
+
+#intro-list{
+	padding:0;
+}
+#left-button{
+	text-align: left;
+}
+
+#right-button{
+	text-align: right;
+	padding-top: 30%;
+}
+
+.back{
+	border:none;
+	background-color:transparent;
+	outline: none;
+	font-size: 1.75rem;
+}
+
+/* ---------------------- Portfolio -------------------------- */
+#portfolio{
+	width:100%;
+	height:100vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.portfolio-type{
+	text-align:center;
+}
+
+.portfolio-type li{
+	display:inline-block;
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+}
+
+.portfolio-type li button{
+	background-color: #FFFFFF;
+	border: 2px solid #5876b3 ;
+	font-size: 2rem;
+	padding:0.2rem 0.5rem 0.2rem 0.5rem;
+	border-radius: 5px;
+}
+
+.portfolio-type li button:hover{
+	background-color:#5876b3;
+	color:#FFFFFF;
+}
+
+.portfolio-type li button:focus{
+	background-color:#5876b3;
+	color:#FFFFFF;
+	outline:none;
+}
+
+
+
+/* ----------------------  web-projects   --------------------------- */
+#web{
+	width:100%;
+	height:85vh;
+	margin:2rem 1rem 2rem 5rem;
+}
+
+#slideshow{
+    height:65vh;	
+}
+
+#previous-project{
+	position: absolute;
+    bottom: 10%;
+    left: 0%;
+    z-index: 100;
+}
+
+#next-project{
+	position: absolute;
+    bottom: 10%;
+    right: 0%;
+    z-index:100;
+}
+
+#imac{
+	z-index:2;
+	position:absolute;
+	right:-1%;
+}
+
+.mySlides{
+	width:35.5rem;
+	height: auto;
+	margin-top:0.5rem; 
+	position:absolute;
+/*	right:1%;*/
+	right:-1%;
+	border-radius: 1rem;
+}
+
+.project-description{
+	padding: 5rem 5rem 4rem 2rem;
+	line-height: 1.25;
+}
+
+.project-description h3{
+	font-size:2rem;
+	font-weight: 700;
+}
+
+.project-description p{
+	font-size: 1.2rem;
+}
+
+.project-description h4{
+	font-size:1.5rem;
+	font-weight: 600;
+}
+/* ------------------------- graphic design ---------------------------*/
+#graphic-design{
+	width:100%;
+	height:75vh;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+#graphic-design h3{
+	padding-top: 3rem;
+	margin: auto;
+	font-size: 5rem;
+	font-weight: bold;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-iteration-count: infinite;
+}
+/* ------------------------- photography ---------------------------*/
+
+#photography{
+	width:100%;
+	height:75vh;
+
+}
+
+#photography {
+	margin-top: 5rem;
+	margin-bottom:5rem;
+}
+
+.actions {
+	width: 100%;
+	text-align: center;
+	padding-top: 4rem;
+}
+
+.actions button{
+	padding:0.5rem 1rem;
+}
+
+/* ============== baraja.css ================ */
+ul.baraja-container {
+	width: 400px;
+	height: 250px;
+	margin: 0 auto 6.5rem;
+	position: relative;
+	list-style-type: none;
+}
+
+ul.baraja-container li {
+	position: absolute;
+}
+
+.no-js ul.baraja-container {
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+.no-js ul.baraja-container li {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 310px;
+	margin: 10px;
+}
+/* ============== custom_baraja.css =================== */
+.baraja-demo {
+	margin:auto;
+	color: #aaa;
+}
+
+.no-js .baraja-demo {
+	width: auto;
+}
+
+.baraja-demo ul.baraja-container li {
+	border-radius: 10px;
+	padding: 5px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.baraja-demo li img {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height:auto;
+}
+/* ============= control-buttons ============ */
+
+.button-line {
+	background: transparent;
+	display: inline-block;
+	font-weight: 400;
+	border-radius: 4px;
+	border: 1px solid;
+	margin: 10px;
+	overflow: visible;
+}
+/*----------------------- Contact ----------------------------*/
+
+#contact{
+	width:100%;
+	height:100vh;
+	background-image: url("../img/contact-bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	padding-top: 10rem;
+}
+
+.icon-size{
+	height: 3.5rem;
+	width: 3.5rem;
+}
+
+/* ---------------------- Resume ---------------------------- */
+#resume{
+	width:100%;
+	height:100vh;
+	padding-top: 50px;
+}
+
+#action, 
+#page-breadcrumb {
+  background-color: #fbfafa;
+  height: 13rem;
+  background-position: center;
+  display: table;
+  position: static;
+  width: 100%;
+  color: #5473b1;
+}
+
+.vertical-center{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  position: static;
+}
+
+.action p{
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.action span{
+	padding-left: 9rem;
+}
+
+.action .btn-common{
+  margin-top: 55px;
+  float: left;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.single-features {
+  overflow: hidden;
+  padding-top: 65px;
+  padding-bottom: 40px;
+}
+
+.single-features p{
+	font-size:1.2rem;
+}
+
+.single-features li{
+	font-size:1.2rem;
+}
+
+.single-features:last-child {
+  padding-bottom: 95px;
+}
+
+.single-features h2{
+  margin-bottom: 15px;
+}
+
+.single-features img{
+	padding-top: 3rem;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.social-media img{
+	height: auto;
+	width:4rem;
+}
+

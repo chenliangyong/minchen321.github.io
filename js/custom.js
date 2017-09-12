@@ -103,8 +103,7 @@ $(document).ready(function() {
 				});
 			});
 		}
-		
-	// Feature navigation
+
 	$('#feature-prev').on( 'click', function( event ) {
 		baraja.previous();
 	});
@@ -113,7 +112,6 @@ $(document).ready(function() {
 		baraja.next();
 	});
 	
-	// close Features
 	$('#feature-close').on( 'click', function( event ) {
 		baraja.close();
 	});	

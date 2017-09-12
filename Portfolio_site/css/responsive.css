@@ -1,0 +1,469 @@
+@media only screen and (min-height:800px) {
+	#portfolio{
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	#slideshow{
+	    height:65vh;	
+	}
+}
+@media only screen and (max-width: 1155px) {
+	#imac{
+		width:35rem;
+		height: auto;
+	}
+	.mySlides{
+		width:23.5rem;
+		height: auto;
+		margin-top:0.7rem; 
+		position:absolute;
+		right:0%;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	#imac{
+		z-index:2;
+		position:absolute;
+		right:-1%;
+		width:37.5rem;
+		height: auto;
+	}
+
+	.mySlides{
+		width:33rem;
+		height: auto;
+		margin-top:0.5rem; 
+		position:absolute;
+		right:-1%;
+	}
+}
+
+/* ----------- web project demon above ------------ */
+@media only screen and (max-width: 991px) {
+	.action .btn-common {
+	    padding: 0rem;
+	}
+	.back{
+		font-size:1.2rem;
+	}
+	.project-description {
+	    padding: 1rem 4rem 1rem 1rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.section-heading{
+		padding-top: 2.5rem;
+		text-align: center;
+		font-size: 2.0rem;
+	}
+
+	/* ----------- home ------------- */
+	#moving-helicopter{
+	  padding-top:2rem;
+	}
+
+	#moving-helicopter img{
+	  width:12rem;
+	}
+
+	/* --------- navbar -------------- */
+	.navbar-brand {
+	    float: left;
+	    height: 50px;
+	    padding: 20px 18px 18px 18px;
+	    font-size: 1.6rem;
+	}
+	#navbar a:hover{
+		border: 2px solid #5876b3;
+		border-radius: 10px;
+
+	}
+	#mobile-menu{
+		font-size: 1.6rem;
+	}
+	/* ------------ home -------------*/
+	#home h1{
+		font-size: 2.2rem;
+		left:15%;
+		right:15%;
+	}
+	#home{
+		background-image: url("../img/nyc-mobile.jpg");
+	}
+	/* --------- about-me ---------- */
+	#roles button{
+		font-size: 1.5rem;
+		padding:0.2rem 0.3rem 0.2rem 0.3rem;
+	}
+
+	.subheader{
+		text-align: center;
+		font-size: 1.5rem;
+		padding-top:0.5rem; 
+	}
+
+	#developer{
+		text-align: -moz-center;
+		text-align: -webkit-center;
+		text-align: -ms-center;
+	}
+
+	#developer-background{
+		height:28vh;
+	}
+	.developer-icons{
+		height:auto;
+		padding-top:2rem;
+		display: unset;
+	}
+
+	#developer-slide h3{
+		padding-top: 1.8rem;
+		font-size: 1.5rem;
+		font-weight: normal;
+		text-align: center;
+	}
+	#developer-slide p{
+		font-size: 1.2rem;
+	}
+	#me{
+		text-align: -moz-center;
+		text-align: -webkit-center;
+		text-align: -ms-center;
+	}
+	#me-slide{
+		padding-top:2.0rem;
+	}
+	#me-slide h3{
+		font-size: 1.5rem;
+		font-weight: normal;
+		text-align: center;
+		padding-bottom: 1rem;
+	}
+	#me-slide li{
+		font-size: 1.2rem;
+	}
+
+	#me-background{
+		height:28vh;
+	} 
+
+	#my-picture{
+		height:35vh;
+	}
+
+	#self-intro{
+		height:28vh;
+	}
+
+	.back{
+		font-size: 1rem;
+	}
+
+	/* ---------- portfolio -------------*/
+	#web {
+	    margin: 2rem 1rem 2rem 1rem;
+	}
+	#slideshow{
+	    height: 60vh;
+	}
+	#previous-project{
+		position: absolute;
+	    bottom: 0%;
+	    left: 0%;
+	    z-index: 100;
+	}
+	#next-project{
+		position: absolute;
+	    bottom: 0%;
+	    right: 10%;
+	    z-index:100;
+	}
+	#imac{
+		z-index:2;
+		position:absolute;
+		left:10%;
+		width:31rem;
+		height: auto;
+	}
+
+	.mySlides{
+		width:30rem;
+		height: auto;
+		margin-top:0.7rem; 
+		position:absolute;
+		left:11%;
+	}
+	#project-details{
+		margin-top:1rem;
+	}
+	.project-description {
+		padding: 0;
+	}	
+	.portfolio-type li button{
+		font-size: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.portfolio-type li{
+		padding:0;
+	}
+	.portfolio-type ul{
+		margin:auto;
+	}
+	.project-description{
+		padding: 2rem 1rem 2rem 1rem;
+		line-height: 1.25;
+	}
+	/* --------- resume -------------- */
+	.title{
+		text-align: center;
+	}
+	.action .btn-common {
+	    margin-top: 55px;
+	    float: unset; 
+	    padding: 0rem 0.5rem 0.5rem 0.5rem;
+	}
+
+	.action p {
+	    font-size: 1rem;
+	    margin-bottom: 0;
+	    line-height: 1.25;
+	    text-align: center;
+	}
+
+	.action span{
+		padding-left: 6rem;
+	}
+	.single-features img{
+		margin: auto;
+	}
+
+	#biscuitandchai{
+		width: 10rem;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	#imac{
+		z-index:2;
+		position:absolute;
+		left:10%;
+		width:25rem;
+		height: auto;
+	}
+	.mySlides{
+		width:24rem;
+		height: auto;
+		margin-top:0.6rem; 
+		position:absolute;
+		left:11%;
+	}
+	#slideshow{
+	    height: 55vh;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#web{
+		margin-top: 1rem;
+		margin-left:2rem;
+		margin-right:1rem;
+
+	}
+	#project-details{
+		margin-top:2rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#moving-helicopter img{
+	  width:10rem;
+	}
+
+	#photography {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	ul.baraja-container {
+	    height: 12rem;
+	}
+	.baraja-demo li img {
+	    width: 300px;
+	}
+	.actions {
+		width: 100%;
+		text-align: center;
+		padding-top: 2rem;
+	}
+	#web{
+		margin-top: 1rem;
+		margin-left:0.8rem;
+		margin-right:1rem;
+	}
+	#slideshow{
+	    height: 45vh;
+	}
+	#imac{
+		z-index:2;
+		position:absolute;
+		left:10%;
+		width:20rem;
+		height: auto;
+	}
+
+	.mySlides{
+		width:19.5rem;
+		height: auto;
+		margin-top:0.5rem; 
+		position:absolute;
+		left:11%;
+	}
+	#project-details{
+		margin-top:2rem;
+	}
+
+}	
+
+@media only screen and (max-width: 460px) {
+	#web{
+		margin-left:1rem;
+		margin-right:1rem; 
+	}
+	.portfolio-type li button{
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+	}
+	#project-details{
+		margin-top:15rem;
+	}
+	#project-details h3{
+		font-size: 1.5rem;
+	}
+	#project-details h4{
+		font-size: 1.5rem;
+	}
+	#tech-stack{
+		font-size:1rem;
+	}
+	#project-details{
+		margin-top:1rem;
+	}
+	#project-details h3{
+		font-size: 1.5rem;
+	}
+	#project-details h4{
+		font-size: 1.5rem;
+	}
+	#tech-stack{
+		font-size:1rem;
+	}
+}
+@media only screen and (max-width: 414px) {
+	#imac{
+		z-index:2;
+		position:absolute;
+		left:5%;
+		width:20rem;
+		height: auto;
+	}
+
+	.mySlides{
+		width:19.5rem;
+		height: auto;
+		margin-top:0.5rem; 
+		position:absolute;
+		left:6%;
+	}
+	#slideshow{
+	    height: 40vh;
+	}
+}	
+
+@media only screen and (max-width: 375px) {
+	#home h1{
+		font-size: 1.8rem;
+	}
+	.baraja-demo li img {
+	    width: 250px;
+	}
+	ul.baraja-container {
+	    height: 7rem;
+	}
+	.portfolio-type li button{
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+	}
+	#web{
+		margin-top: 0.5rem;
+		margin-left:0.7rem;
+	}
+
+	#project-details{
+		margin-top:1rem;
+	}
+	#project-details h3{
+		font-size: 1.5rem;
+	}
+	#project-details h4{
+		font-size: 1.5rem;
+	}
+	.project-description p {
+	    font-size: 1rem;
+	}
+}	
+
+@media only screen and (max-width: 320px) {
+	#developer-slide p{
+		font-size: 1rem;
+	}
+	#text-padding{
+		margin-left:2rem;
+		font-size:1rem;
+	}
+	.portfolio-type li button{
+		font-size: 0.8rem;
+		margin-bottom: 0.5rem;
+	}
+	.baraja-demo li img {
+	    width: 200px;
+	}
+	ul.baraja-container {
+	    height: 5rem;
+	}
+	#slideshow{
+	    height: 45vh;
+	}
+	#web{
+		margin-top: 0.5rem;
+		margin-left:0.5rem;
+	}
+	#imac{
+		z-index:2;
+		position:absolute;
+		left:5%;
+		width:17rem;
+		height: auto;
+	}
+
+	.mySlides{
+		width:16.5rem;
+		height: auto;
+		margin-top:0.4rem; 
+		position:absolute;
+		left:7%;
+	}
+	#project-details{
+		margin-top:0.5rem;
+	}
+	#project-details h3{
+		font-size: 1.5rem;
+	}
+	#project-details h4{
+		font-size: 1.5rem;
+	}
+	#tech-stack{
+		font-size:1rem;
+	}
+}
