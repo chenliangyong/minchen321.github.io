@@ -191,6 +191,9 @@ nav{
 	margin-top:2rem;
 
 }
+#mobile-me{
+	display: none;
+}
 
 #me-slide h3{
 	font-size: 2rem;
