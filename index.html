@@ -1,386 +1,296 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
 	<title>Min Chen</title>
-	
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/bootstrap.css" />
-	<link rel="stylesheet" href="css/font-awesome.min.css" />
-	<link rel="stylesheet" href="css/linea-icon.css" />
-	<link rel="stylesheet" href="css/fancy-buttons.css" />
-	
-	<!--=== Google Fonts ===-->
-	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,700,400' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-	<!--=== Other CSS files ===-->
-	<!-- <link rel="stylesheet" href="css/animate.css" /> -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<meta name="description" content="Min Chen's Personal Website">
+	<meta name="keywords" content="Web Developer, Graphic Designer">
+	<meta name="author" content="Min Chen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="css/jquery.vegas.css" />
-	<link rel="stylesheet" href="css/baraja.css" />
-	<link rel="stylesheet" href="css/jquery.bxslider.css" />
-	
-	<!--=== Main Stylesheets ===-->
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/responsive.css" />
-	
-	<!--=== Color Scheme, three colors are available red.css, orange.css and gray.css ===-->
-	<link rel="stylesheet" id="scheme-source" href="css/schemes/gray.css" />
-	
-	<!--=== Internet explorer fix ===-->
-	<!-- [if lt IE 9]>
-		<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif] -->
-	
-	
+	<!-- =========================CSS files============================== -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/fancy-buttons.css" />
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
 </head>
 <body>
-	<!--=== Preloader section starts ===-->
-	<section id="preloader">
-		<div class="loading-circle fa-spin"></div>
-	</section>
-	<!--=== Preloader section Ends ===-->
+	<!--======================== Preloader section ============================-->
+<!-- <section id="preloader">
+	</section> -->
+	<!-- ========================= navigation ============================= -->
+	<header>
+		<nav class="navbar navbar-fixed-top" role="navigation">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span id="mobile-menu">Menu</span>
+	          </button>
+	          <a class="navbar-brand" href="#">Min Chen</a>
+	        </div>
+	        <div id="navbar" class="navbar-collapse collapse">
+	          <ul class="nav navbar-nav navbar-right">
+	            <li><a href="#about">About Me</a></li>
+	            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+	            <li><a href="#contact">Contact</a></li>
+	            <li><a href="resume.html">Resume</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </nav>
+	</header>
+	<!-- ====================== End of Navigation ====================== -->
+
 	
-	<!--=== Header section Starts ===-->
-	<div id="header" class="header-section">
-		<!-- sticky-bar Starts-->
-		<div class="sticky-bar-wrap">
-			<div class="sticky-section">
-				<div id="topbar-hold" class="nav-hold container">
-					<nav class="navbar" role="navigation">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-							</button>
-							<!--=== Site Name ===-->
-							<a class="site-name navbar-brand" href="#">Min Chen</a>
-						</div>
-						
-						<!-- Main Navigation menu Starts -->
-						<div class="collapse navbar-collapse navbar-responsive-collapse">
-							<ul class="nav navbar-nav navbar-right">
-								<li class="current"><a href="#header">Home</a></li>
-								<li><a href="#about">About Me</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
-								<li><a href="#photography">Photography</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</div>
-						<!-- Main Navigation menu ends-->
-					</nav>
-				</div>
-				<!-- <hr style="color:red;"> -->
-				
-			</div>
-			<hr>
+	<section id="home">
+		<div class="container home">
+			<div class="row">				
+				<div class="animated slideInRight" id="moving-helicopter">
+        			<img src="img/helicopter.png" class="img-responsive">
+      			</div>
+			</div><!-- 	row -->
 		</div>
-		<!-- sticky-bar Ends-->
-		<!--=== Header section Ends ===-->
-		
-		<!--=== Home Section Starts ===-->
-		<div id="section-home" class="home-section-wrap center">
-			<div class="section-overlay img-responsive"></div>
-			<div class="container home">
-				<div class="row">
-					<div class="content">
-						<div class="animated slideInRight" id="movingHelicopter">
-        					<img src="images/helicopter.png" class="img-responsive">
-      					</div>
-		                <h2><span id="head-title"></span></h2>
-		            </div>
-				</div><!-- 	row -->
-			</div>
-		</div>
-		<!--=== Home Section Ends ===-->
-	</div>
-	
-	<!--=== About section Starts ===-->
-	<section id="about" class="section-step step-wrap">
-		<div class="container step animated" data-animation="bounceInLeft" data-animation-delay="700">
-			<div class="row">
-				<!-- Step Description Starts -->
-				<div class="col-md-6 step-desc">
-					<!-- <div class="col-md-10 step-details"> -->
-					<h2>About Me</h2>
-							<br>
-							<br>
-							<p class="step-description" style="font-size: 20px;">I’m a junior majoring in Computer Science at Queens College. I am always looking for opportunities to expand my skills as a web developer. This year, I have been selected to participate in the CUNY Tech Prep Program, which teaches students the skills they need to become Full Stack developers. I'm currently a Front End Developer at Biscuit & Chai, LLC. I'm familiar with multiple coding languages including HTML, CSS, JavaScript, Java and more. I also have a great interest in photography. In my spare time, I enjoy capturing the beautiful things around me.</p>
-							
-							<ul class="sub-steps"> <!-- Sub steps here -->
-								
-							</ul>
-					<!-- </div> -->
-					 <!-- End step-details -->
-				</div>
-				<!-- Step Description Ends -->
-				<div class="col-md-6 step-img">
-					<img src="images/me.png" alt="" /> <!-- Step Photo Here -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--=== Step-1 section Ends ===-->
 
-	<section id="portfolio">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <br>
-                    <br>
-                    <br>
-                    <h3>Portfolio</h3>
-                    <br>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-							<div class="col-lg-4 col-md-4 text-center">
-                    <div class="project-box">
-                          <a href="images/dishFinder.gif" class="portfolio-box">
-                              <img src="images/dishFinder.gif" class="img-responsive" alt="">
-                          </a>
-                          <h4>Dish Finder</h4>
-                          <p>A Node.js web application provides reviews for restaurant menu items.</p>
-                    </div>
-                </div>
+		<h1><span id="head-title"></span></h1>
+	</section> 
 
-								<div class="col-lg-4 col-md-4 text-center">
-	                    <div class="project-box">
-	                          <a href="images/payoment.gif" class="portfolio-box">
-	                              <img src="images/payoment.gif" class="img-responsive" alt="">
-	                          </a>
-	                          <h4>Payoment</h4>
-	                          <p>Website for Payoment Merchant Serivices</p>
-	                    </div>
-	                </div>
 
-            	<div class="col-lg-4 col-md-4 text-center">
-                    <div class="project-box">
-                          <a href="images/surtom.gif" class="portfolio-box">
-                              <img src="images/surtom.gif" class="img-responsive" alt="">
-                          </a>
-                          <h4>Surtom Construction Contracting Corp.</h4>
-                          <p>A company website built on top of Bootstrap.</p>
-                    </div>
-                </div>
-
-            </div> <!-- first row -->
-
-            <div class="row">
-							<div class="col-lg-4 col-md-4 text-center">
-									<div class="project-box">
-												<a href="images/CUNYPlus.gif" class="portfolio-box">
-														<img src="images/CUNYPlus.gif" class="img-responsive" alt="">
-												</a>
-												<h4>CUNYPlus</h4>
-												<p>A communication platform to connect CUNY students by their areas of study.</p>
-									</div>
+	<!-- ======================== About Me ========================= -->
+    <section id="about">
+    	<!-- ============ slide-pages ============= -->
+	    	<div class="container-fluid" id="developer-slide">
+				<div class="row">	    		
+					<div class="col-lg-12">
+						<h3> What do I consider in my front-end design?</h3>
+						<div class="row animated flipInX" id="flip">	   
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<img src="img/about-me/creativity.png" class="img-responsive developer-icons">
+								<p>Creativity</p>
 							</div>
-
-							<div class="col-lg-4 col-md-4 text-center">
-									<div class="project-box">
-											<a href="images/SmartCapital.gif" class="portfolio-box">
-												<img src="images/SmartCapital.gif" class="img-responsive" alt="">
-											</a>
-											<h4>Smart Capital</h4>
-										<p>A Wordpress website for Smart Capital Corporation.</p>
-									</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<img src="img/about-me/responsive-design.png" class="developer-icons img-responsive">
+								<p>Responsive Design</p>
 							</div>
-
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="project-box">
-                        <a href="images/movieQuiz.gif" class="portfolio-box">
-                          <img src="images/movieQuiz.gif" class="img-responsive" alt="">
-                        </a>
-                        <h4>MovieQuizApp</h4>
-                        <p>A Node.js movie quiz game with responsive front-end design.</p>
-                    </div>
-                </div>
-          </div>  <!-- second row -->
-
-				 <div class="row">
-					<div class="col-lg-2 col-md-2 text-center"></div>
-					<div class="col-lg-4 col-md-4 text-center">
-							<div class="project-box">
-								<a href="images/recipebook.gif" class="portfolio-box">
-										<img src="images/recipebook.gif" class="img-responsive" alt="">
-								</a>
-								<h4>RecipeBook</h4>
-								<p>A full stack JavaScript web application allows users to manage their online recipes.</p>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<img src="img/about-me/accessibility.png" class="developer-icons img-responsive">
+								<p>Accessibility</p>
 							</div>
+						</div> <!-- row -->
+						<div id="developer-intro">
+							<h3>About Me</h3>
+							<div class="row">	   
+								<div class="col-lg-3 col-md-3 col-sm-2 col-xs-2" id="left-button">
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<button class="back">
+							    		<i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+							    		Back
+							    	</button>
+								</div>
+								<div class="col-lg-9 col-md-9 col-sm-10 col-xs-10">
+									<p> var Min &#61; &#123;<br>
+										<div id="text-padding">
+											<span class="multi-lines">Programming&#95;experience: 2&#43; years,<br>
+											Programming&#95;languages&#58; &#91;HTML, CSS, JavaScript, Java, C&#43;&#43;&#93;,<br>
+											Operating&#95;systems&#58; &#91;Windows, Mac_OS_X&#93;,<br>
+											Softwares&#58; &#91;Sublime, Eclipse, Adobe Experience Design, Photoshop, Microsoft Office&#93;<br>
+											</span>
+										</div>
+									&#125;&#59; 
+									</p>
+								</div>
+							</div><!-- row -->
+						</div><!-- developer-intro -->
 					</div>
-					<div class="col-lg-4 col-md-4 text-center">
-							<div class="project-box">
-								</br>
-							  </br>
-								<h2 class="animated flash" id="comingSoon"> Coming Soon </h2>
-							</div>
-					</div>
+			    </div>
+		    </div><!-- container-fluid -->
+
+		    <div class="container-fluid" id="me-slide">
+			    <div class="row">	    		
+						<div class="col-lg-5 col-md-4 col-sm-6 col-xs-12" id="my-picture">
+							<img src="img/about-me/self.png" class="img-responsive" id="self">
+							<img src="img/about-me/mobile-me.png" class="img-responsive" id="mobile-me">
+						</div>    
+						<div class="col-lg-5 col-md-6 col-sm-5 col-xs-10" id="self-intro">
+						<h3>About Me</h3>
+					    	<p>I’m a junior studying Graphic Design and Computer Science at Queens College. I'm currently a Front End Developer at Biscuit &amp; Chai, LLC. I am always looking for opportunities to expand my skills as a web developer. If you have any cool projects or opportunities. Let’s get in touch!<a href="#contact"><i class="fa fa-arrow-right animated shake" id="contact-me" aria-hidden="true"></i></a></p>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-1 col-xs-2" id="right-button">
+							<button class="back">
+					    		<i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+					    		Back
+					    	</button>
+						</div>
 				</div>
-        </div><!-- container -->
+		    </div>
+
+	    <!-- ============ about me intro ============ -->
+	    <div class="container" id="roles">
+	    	<h2 class="section-heading">I'm ...</h2>
+	    	<div class="row">
+	    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="developer">
+		    		<h3 class="subheader">&#60;&#32;a Front End Developer &#47;&#62;</h3>
+		    		<button class="silde-button animated shake" id="developer-button"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;More</button>
+		    		<img src="img/about-me/developer.png" id="developer-background" class="img-responsive">
+	    		</div> 
+	    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="me">
+	    			<h3 class="subheader">Min</h3>
+	    			<button class="silde-button animated shake" id="me-button">More&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+	    			<img src="img/about-me/me.png" id="me-background" class="img-responsive">
+	    		</div>
+	    	</div>
+	    </div>
     </section>
-	
-	<!--=== Features section Starts ===-->
-	<section id="photography" class="feature-wrap">
-		<div class="container features center">
-			<div class="row">
-				<div class="center">
-					<h3 id="section_title" style="margin-bottom:50px;"> Photography</h3>
-				</div>
+    <!-- ======================== Portfolio ========================= -->
+    <section id="portfolio">
+    	<div class="container-fluid">
+	    	<div class="row">
+	    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	    			<h2 class="section-heading">Portfolio</h2>	
+	    			<div class="portfolio-type">
+	    				<ul>
+		    				<li><button id="web-portfolio">Web</button></li>
+		    				<li><button id="photography-portfolio">Photography</button></li>
+		    				<li><button id="design-portfolio">Graphic Design</button></li>
+	    				</ul>
+	    			</div>
+	    		</div>
+	    	</div><!-- row -->
+
+	    <div class="row">
+	    	<!-- =============== web projects ============= -->
+		    <div id="web">
+				<!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="slideshow">  -->
+				<div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-6 col-xs-12" id="slideshow"> 
+					<div class="slideshow-container">
+
+					  	<img src="img/imac-icon.png" class="img-responsive" id="imac">
+					
+						<img class="mySlides img-responsive" src="img/web-projects/dish-finder.gif">
+						<img class="mySlides img-responsive" src="img/web-projects/payoment.gif">
+						<img class="mySlides img-responsive" src="img/web-projects/surtom.gif">
+						<img class="mySlides img-responsive" src="img/web-projects/cunyplus.gif">
+						<img class="mySlides img-responsive" src="img/web-projects/smart-capital.gif">
+						<img class="mySlides img-responsive" src="img/web-projects/movie-quiz.gif">	
+						<img class="mySlides img-responsive" src="img/web-projects/recipebook.gif">	
+					</div>
+					<button class="w3-button w3-black" id="previous-project" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-black" id="next-project" onclick="plusDivs(1)">&#10095;</button>
+		        </div> <!--     col-lg-6 -->
+		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="project-details">
+		        	<div class="project-description">
+			       		<h3 id="project"></h3>
+			       		<p id="intro"></p>
+			       		<br>
+			       		<h4>Tech Stack:</h4>
+			       		<p id="tech-stack"></p>
+		       		</div>
+
+		        </div>
+		    </div>
+				
+			<!-- ============= graphic design ============== -->
+		    <div class="col-lg-12" id="graphic-design">
+		    	<h3 class="animated flash">Coming Soon!</h3>
 			</div>
-			<div class="row">
-				<div class="col-lg-12">
-						<!--Features container Starts -->
-						<ul id="card-ul" class="features-hold baraja-container">
-
-							<li class="single-feature">
-								<img src="images/1.jpg" alt="" class="feature-image" />
-							</li>
-							
-							<li class="single-feature">
-								<img src="images/2.jpg" alt="" class="feature-image" />
-							</li>
-							
-							<li class="single-feature">
-								<img src="images/3.jpg" alt="" class="feature-image" />
-							</li>
-							
-							<li class="single-feature">
-								<img src="images/4.jpg" alt="" class="feature-image" />
-							</li>
-
-							<li class="single-feature">
-								<img src="images/5.jpg" alt="" class="feature-image" />
-							</li>
-							
-							<li class="single-feature">
-								<img src="images/6.jpg" alt="" class="feature-image" />
-							</li>
-							<!-- Single Feature Ends -->
-						</ul>
-						<!--Features container Ends -->
-						
-						<!-- Features Controls Starts -->
-						<div class="features-control relative">
-							<button class="control-icon fancy-button button-line no-text btn-col bell" id="feature-prev" title="Previous" >
+		    <!-- ============= photography ============== -->
+		    	<div class="col-lg-12" id="photography">
+		    		<div id="photos">
+				    	<div class="baraja-demo" >
+							<ul id="baraja-el" class="baraja-container">
+								<li><img src="img/photography/national_mall.jpg" alt="National Mall"/></li>
+								
+								<li><img src="img/photography/museum_of_moving_images.jpg" alt="Museum of Moving Images"/></li>
+								<li><img src="img/photography/planting_field.jpg" alt="Long Island Planting Field"/></li>
+								<li><img src="img/photography/street_view.jpg" alt="Street View"/></li>
+								<li><img src="img/photography/boston_harbor.jpg" alt="Boston Harbor"/></li>
+								<li><img src="img/photography/whitney_museum_rooftop.jpg" alt="Whitney Museum Rooftop1"/></li>
+							</ul>
+						</div>
+						<div class="actions">
+							<button class="fancy-button button-line" id="nav-prev">
 								<span class="icon">
 									<i class="fa fa-arrow-left"></i>
 								</span>
 							</button>
-							<button class="control-icon fancy-button button-line no-text btn-col zoom" id="feature-expand" title="Expand" >
-								<span class="icon">
-									<i class="fa fa-expand"></i>
-								</span>
-							</button>
-							<button class="control-icon fancy-button button-line no-text btn-col zoom" id="feature-close" title="Collapse" >
-								<span class="icon">
-									<i class="fa fa-compress"></i>
-								</span>
-							</button>
-							<button class="control-icon fancy-button button-line no-text btn-col bell" id="feature-next" title="Next" >
+							<button class="fancy-button button-line" id="nav-next">
 								<span class="icon">
 									<i class="fa fa-arrow-right"></i>
 								</span>
 							</button>
+							<button class="fancy-button button-line" id="nav-fan5">
+								<span class="icon">
+									<i class="fa fa-expand"></i>
+								</span>
+							</button>
+							<button class="fancy-button button-line" id="close">
+								<span class="icon">
+									<i class="fa fa-compress"></i>
+								</span>
+							</button>
 						</div>
-						<!-- Features Controls Ends -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--=== Features section Ends ===-->
-	
-	
-	<section id="contact">
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-lg-8 col-lg-offset-2 text-center">
-	              <div class="cv">
-	                <h3>Resume</h3>
-	                <a href="Resume.pdf" target="_blank">
-	                <img title = "Find my resume here!" id = "resumeSize" src = "images/contact/resumeIcon.png"/>
-	                </a>
-	                <br>
-	                <br>
-	                <br>
-	                <h2 class="contactSize"> Contact </h2>
-	                <br><br>
-	                <a href = "https://www.linkedin.com/in/minchen325">
-	                    <img class = "icon_size" src = "images/contact/linkedin.png"/>
-	                </a>
-	                <a href = "https://github.com/minchen321">
-	                    <img class = "icon_size" src = "images/contact/github.png"/>
-	                </a>
-	                <a href = "mailto:min.chen08@qmail.cuny.edu">
-	                    <img class = "icon_size" src = "images/contact/email.png"/>
-	                </a>
-	                <a href = "https://www.instagram.com/min75208/?hl=en">
-	                    <img class = "icon_size" src = "images/contact/instagram.png"/>
-	                </a>
-	            </div>
 					</div>
+		    	</div>
+
+
+			</div><!-- row -->
+
+
+	    </div><!-- container-fluid -->
+    </section>
+    <!-- ======================== Contact ========================= -->
+    <section id="contact">
+    	<div class="container-fluid">
+	    	<div class="row"> 
+	    		<div class="col-lg-6 col-lg-offset-3 text-center">
+	    			<h2 class="section-heading">Resume</h2>
+	    			<a href="resume.html">
+	                <img id="resumeSize" src="img/contact-icons/resume.png"></a>
+
+	    			<h2 class="section-heading">Contact</h2>
+	                <a href="mailto:min.chen08@qmail.cuny.edu" aria-label="Email"><img src="img/contact-icons/email.png" alt="Email" class="icon-size"></a>
+	                <a href="https://www.linkedin.com/in/minchen321" aria-label="Linkedin"><img src="img/contact-icons/linkedin.png" class="icon-size" alt="Linkedin"></a>
+	                <a href="http://www.instagram.com/min75208/?hl=en" aria-label="Instagram"><img src="img/contact-icons/instagram.png" class="icon-size" alt="Instagram"></a>
+	                <a href="http://github.com/minchen321" aria-label="GitHub"><img src="img/contact-icons/github.png" class="icon-size" alt="GitHub"></a>
+
+	    		</div>
+	    	</div>
+	    </div>
+    </section>
+
+	<!-- ======================== Footer ========================= -->
+    <footer id="footer">
+	    <div class="container">
+	        <div class="text-center">
+	            <p id="copyright">&copy; 2017 Min Chen </p>
 	        </div>
 	    </div>
-	</section>
-	<!--=== Contact section Ends ===-->
+	 </footer>
 
-	
-<!--==== Js files ====-->
-<!--==== Essential files ====-->
-<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
-<script type="text/javascript" src="js/modernizr.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<!-- ============================ Javascript ============================= -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<!-- photography section -->
+  	<script type="text/javascript" src="js/modernizr.js"></script>
+  	<script type="text/javascript" src="js/jquery.baraja.js"></script>
+  	<script type="text/javascript" src="js/jquery.appear.js"></script>
+  	<!-- ====== typed.js ======= -->
+  	<script type="text/javascript" src="js/typed.js"></script>
 
-<!--==== Slider and Card style plugin ====-->
-<script type="text/javascript" src="js/jquery.baraja.js"></script>
-<script type="text/javascript" src="js/jquery.vegas.min.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-
-<!--==== MailChimp Widget plugin ====-->
-<script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
- 
-
-<!--==== Scroll and navigation plugins ====-->
-<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-<script type="text/javascript" src="js/jquery.nav.js"></script>
-<script type="text/javascript" src="js/jquery.appear.js"></script>
-<script type="text/javascript" src="js/jquery.fitvids.js"></script>
-
-
-
-<!--==== Custom Script files ====-->
-<script type="text/javascript" src="js/custom.js"></script>
-<script type="text/javascript" src="js/typed.js"></script>
-<script>
-    $(function(){
-        $("#head-title").typed({
-          strings: ["Hi! I'm Min.", "I'm a creative web developer from New York City."],
-          typeSpeed: 100,
-          loop: true,
-          startDelay: 100
-        });
-    });
-</script>
-
-<script type="text/javascript">
-	$(document).ready(function(){
-    	$(".zoom").trigger('click'); 
-});
-
-</script>
-<!-- <script type='text/javascript' src='js/demo.js'></script> -->
-
-
+  	<script src="js/main.js"></script>
 
 </body>
+
 </html>

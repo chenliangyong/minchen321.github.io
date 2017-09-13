@@ -18,10 +18,7 @@
 .fancy-button:hover {
   text-decoration: none;
 }
-.fancy-button .icon {
-  float: right;
-  margin-left: 14px;
-}
+
 .fancy-button.icon{
 display: inline-block;
 }
