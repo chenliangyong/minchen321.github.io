@@ -157,7 +157,7 @@ Portfolio Projects
 
 		description[1] = ["Payoment", "A company website for Payoment Merchant Serivices", "HTML, CSS, JavaScript, Bootstrap"];
 
-		description[2] = ["Surtom", "A company website for Surtom Construction Contracting Corp", "HTML, CSS, JavaScript, jQuery, Bootstrap"];
+		description[2] = ["Surtom", "A company website for Surtom Construction Contracting Corp.", "HTML, CSS, JavaScript, jQuery, Bootstrap"];
 
 		description[3] = ["CUNYPlus", "A communication platform to connect CUNY students by their areas of study.", "HTML, CSS, JavaScript, jQuery, Bootstrap"];
 

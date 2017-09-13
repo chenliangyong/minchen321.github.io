@@ -200,8 +200,7 @@ nav{
 	padding-top:40%;
 }
 
-#me-slide li{
-	list-style-type: none;
+#me-slide p{
 	font-size: 1.5rem;
 }
 
@@ -212,9 +211,12 @@ nav{
 	height:695px;
 }
 
-#intro-list{
-	padding:0;
+#contact-me{
+	-webkit-animation-duration:15s;
+	-webkit-animation-iteration-count: infinite;
+	padding-left: 0.5rem;
 }
+
 #left-button{
 	text-align: left;
 }
