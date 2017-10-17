@@ -40,7 +40,8 @@
 	}  
 	.masthead .intro-body h1{
 		font-size: 2rem;
-		padding-bottom: 6rem;
+		margin-bottom: 6rem;
+		padding-bottom: 0rem;
 	}
 	/* ---------------- about ------------ */
 	.subheader{
@@ -81,7 +82,6 @@
 @media only screen and (max-width: 575px) {
 	.masthead .intro-body h1{
 		font-size: 1.8rem;
-		padding-bottom: 7rem;
 	}	
 	.subheader{
 		font-size: 1.5rem;
@@ -167,7 +167,6 @@
 @media only screen and (max-width: 320px) {	
 	.masthead .intro-body h1{
 		font-size: 1.5rem;
-		padding-bottom: 7rem;
 	}	
 	.subheader{
 		font-size: 1.1rem;
