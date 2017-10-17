@@ -87,7 +87,7 @@ a {
   text-align: center;
   color: white;
 /*  background: url("../img/nyc.png") no-repeat bottom center scroll;*/
-/*  background-color: white;*/
+  background-color: red;
   background-image: url("../img/nyc.png");
   background-position: bottom;
   -webkit-background-size: cover;
