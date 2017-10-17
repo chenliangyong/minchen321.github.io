@@ -86,13 +86,15 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/nyc.png") no-repeat bottom center scroll;
-  background-color: white;
+/*  background: url("../img/nyc.png") no-repeat bottom center scroll;*/
+/*  background-color: white;*/
+  background-image: url("../img/nyc.png");
+  background-position: bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
-    background-attachment: fixed;
+  background-attachment: fixed;
 }
   .masthead .intro-body {
     display: table-cell;
