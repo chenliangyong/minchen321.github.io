@@ -37,7 +37,6 @@
 	}
 	.masthead {
 	  background: url("../img/nyc-mobile.jpg") no-repeat bottom center scroll;
-	  background-attachment: fixed;
 	}  
 	.masthead .intro-body h1{
 		font-size: 2rem;
