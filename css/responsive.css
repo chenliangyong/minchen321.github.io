@@ -147,7 +147,7 @@
 		height: auto;
 	}	
 	.masthead {
-	  background-position: bottom;
+	  background-position: center bottom;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
