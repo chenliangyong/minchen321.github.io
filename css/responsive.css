@@ -78,7 +78,14 @@
 	    margin-top: 2rem;
 	}
 }	
-
+@media only screen and (max-height: 590px) {
+	.masthead .intro-body h1{
+		position: absolute;
+		top:-4.5rem;
+		left: 5%;
+		right: 5%;
+	}	 	
+}
 @media only screen and (max-width: 575px) {
 	.masthead .intro-body h1{
 		font-size: 1.8rem;
