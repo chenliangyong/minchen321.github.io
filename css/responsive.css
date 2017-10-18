@@ -154,6 +154,10 @@
 	  background-size: cover; 
 	  background-attachment: scroll;
 	}
+	#contact{
+		  background-attachment: scroll;
+		  background-position: center top;
+	}  
 	.mySlides{
 		width:22rem;
 		left:6%;
