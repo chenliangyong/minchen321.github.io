@@ -142,6 +142,10 @@
 	}	
 }
 @media only screen and (max-width: 414px) {
+	#moving-helicopter img{
+		width:140px;
+		height: auto;
+	}	
 	.masthead {
 	  background-position: bottom;
 	  -webkit-background-size: cover;
