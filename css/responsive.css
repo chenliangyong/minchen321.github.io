@@ -36,11 +36,7 @@
 		font-size: 2rem;
 	}
 	.masthead {
-		background: url(../img/nyc-mobile.jpg);
-	    background-repeat: no-repeat;
-	    background-size: cover;
-	    background-attachment: fixed;
-	    background-position: bottom;
+		background-image: url(../img/nyc-mobile.jpg);
 	}  
 	.masthead .intro-body h1{
 		font-size: 2rem;
@@ -138,7 +134,15 @@
 		width:23rem;
 	}	
 }
-@media (max-width: 414px) {
+@media only screen and (max-width: 414px) {
+	.masthead {
+	  background-position: bottom;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover; 
+	  background-attachment: scroll;
+	}
 	.mySlides{
 		width:22rem;
 		left:6%;
