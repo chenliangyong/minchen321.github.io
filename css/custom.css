@@ -158,8 +158,7 @@ footer {
 	background-image: url("../img/watercolor.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-position-y: center top;
-    height: 100vh;
+    background-position: center top;
 }
 
 #me-slide{	
